@@ -1,1 +1,9 @@
-Test
+<div>
+  <% @bubbles.each do |bubble| %>
+    <h1><%= bubble.name %></h1>
+    <p><%= bubble.description %></p>
+    <p><%= bubble.price %></p>
+    <p><%= bubble.person_max %></p>
+  <% end %>
+</div>
+    

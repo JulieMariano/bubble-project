@@ -11,3 +11,5 @@ Bubble.destroy_all
 Bubble.create(name: "Bubble 1", description: "Nice bubble", price: 60, person_max: 2)
 Bubble.create(name: "Bubble 2", description: "Nice bubble", price: 80, person_max: 2)
 Bubble.create(name: "Bubble 3", description: "Nice bubble", price: 50, person_max: 2)
+
+puts "Bubbles created!"

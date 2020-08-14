@@ -8,8 +8,8 @@
 
 Bubble.destroy_all
 
-Bubble.create(name: "Bubble 1", description: "Nice bubble", price: 60, person_max: 2)
-Bubble.create(name: "Bubble 2", description: "Nice bubble", price: 80, person_max: 2)
-Bubble.create(name: "Bubble 3", description: "Nice bubble", price: 50, person_max: 2)
+Bubble.create(name: "Bubble 1", description: "Nice bubble", price: 60, person_max: 2, pictures:"https://res.cloudinary.com/da7rlfd8u/image/upload/v1597407397/Bubbles%20project/bubble-1.jpg")
+Bubble.create(name: "Bubble 2", description: "Nice bubble", price: 80, person_max: 2, pictures:"https://res.cloudinary.com/da7rlfd8u/image/upload/v1597407397/Bubbles%20project/bubble-2.jpg")
+Bubble.create(name: "Bubble 3", description: "Nice bubble", price: 50, person_max: 2, pictures: "https://res.cloudinary.com/da7rlfd8u/image/upload/v1597407397/Bubbles%20project/bubble-3.jpg")
 
 puts "Bubbles created!"

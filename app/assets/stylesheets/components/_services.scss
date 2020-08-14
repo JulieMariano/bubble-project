@@ -1,0 +1,20 @@
+.services {
+    background: lightgray;
+    padding-bottom: 30px;
+}
+
+.services-list {
+    
+    justify-content: space-between;
+}
+.services-details {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    width: 100px;
+
+    .fab {
+        font-size: 30px;
+    }
+}

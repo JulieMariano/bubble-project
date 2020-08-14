@@ -1,8 +1,7 @@
 .card-trip {
     overflow: hidden;
     background: white;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-
+    padding-bottom: 30px;
   }
   
   .card-trip h2 {
@@ -18,11 +17,10 @@
   }
   
   
-  .card-trip .card-trip-infos {
+  .card-trip-infos {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    
   } 
 
   

@@ -1,9 +1,16 @@
-<div>
-  <% @bubbles.each do |bubble| %>
-    <h1><%= bubble.name %></h1>
-    <p><%= bubble.description %></p>
-    <p><%= bubble.price %></p>
-    <p><%= bubble.person_max %></p>
-  <% end %>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://www.buubble.com/wp-content/uploads/2020/05/A07I0591-uai-2560x1920.jpg);">
+  <div class="container">
+    <h1>Experience a weekend <strong>under the stars</strong> in a <strong>unique place</strong></h1>
+    <p>Take a dip in nature and savor the present moment</p>
+  </div>
 </div>
-    
+
+<div class="card-trip">
+  <h1 style="text-align:center">Discover our bubbles</h1>
+  <div class="card-trip-infos">
+    <% @bubbles.each do |bubble| %>
+      <h1><%= bubble.name %></h1>
+      <p><%= bubble.description %></p>
+    <% end %>
+  </div>
+</div>
